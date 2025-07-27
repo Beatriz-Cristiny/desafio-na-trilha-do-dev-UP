@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    background-color: black;
+    font-family: 'Roboto';
+}
+
+#conteudo-principal-HeroSection{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    gap: 50px;
+    margin-top: 90px;
+}
+
+#Titulo{
+    font-weight: bold;
+}
+
+#Titulo span{
+    color: #C9F31D;
+}
+
+#Titulo-chamativo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 1px solid olivedrab; */
+    font-size: 30px;
+    gap: 30px;
+}
+
+#Titulo-chamativo p{
+    font-size: 25px
+}
+
+#conteudo-principal-HeroSection img{
+    width: 350px;
+    display: block;
+}
+
+#conteudo-principal-HeroSection button{
+    border: none;
+    border-radius: 8px;
+    background-color: #C9F31D;
+    padding: 18px 15px 18px 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#conteudo-principal-HeroSection button:hover{
+    background-color: #c8f31dc9;  
+}
+

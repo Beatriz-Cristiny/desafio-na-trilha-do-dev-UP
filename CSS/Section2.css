@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#Section2{
+    background-color: #C9F31D;
+    justify-items: center;
+    margin-top: 190px;
+    padding-bottom: 100px;
+}
+
+#Titulo-section{
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+#grid-habilidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    column-gap: 40px;
+    row-gap: 80px;
+}
+
+.caixinhas-habilidades{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+    gap: 20px;
+}
+
+.caixinhas-habilidades img{
+    display: block;
+    width: 80px;
+}
+
+.caixinhas-habilidades h5{
+    font-size: 25px;
+}
+
+.caixinhas-habilidades p{
+    font-size: 18px;
+}

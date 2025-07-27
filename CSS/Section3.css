@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#Section3{
+    color: rgb(247, 251, 255);
+}
+
+#grade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 150px 90px 150px; 
+}
+
+#grade img{
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#infos h1{
+    font-size: 70px;
+}
+
+#infos p{
+    font-size: 1.4rem;
+    text-align: start;
+    line-height: 1.9;
+    word-wrap: break-word;
+}
+
+#infos button{
+    cursor: pointer;
+    background-color: #C9F31D;
+    padding: 18px 60px 18px 60px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#infos button:hover{
+    background-color: #c8f31de7;
+}

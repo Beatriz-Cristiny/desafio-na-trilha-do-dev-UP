@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#footer-heroSection{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-heroSection #autor{
+    padding-left: 60px;
+    
+}
+
+#footer-heroSection #contato{
+    padding-right: 60px;
+}

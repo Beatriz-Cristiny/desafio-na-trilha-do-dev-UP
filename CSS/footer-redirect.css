@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#footer-redirect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C9F31D ;
+    gap: 40px;
+    padding: 50px;
+}
+
+#footer-redirect p{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#footer-redirect button{
+    background-color: black;
+    color: #C9F31D;
+    padding: 15px 35px 15px 35px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footer-redirect button:hover{
+    background-color: rgba(0, 0, 0, 0.856);
+    
+}

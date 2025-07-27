@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#section-redirecionamentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 67px;
+    gap: 40px;
+    
+}
+
+#section-redirecionamentos h2{
+    color: aliceblue;
+}
+
+
+
+#section-redirecionamentos span{
+    color: #C9F31D;
+}
+
+#grade-Geral-Dos-Links{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+
+}
+
+.gradeDosLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C9F31D;
+    border-radius: 7px;
+    text-align: center;
+    padding: 40px 40px 20px 40px;
+    gap: 10px;
+
+}
+
+
+.gradeDosLinks img{
+    display: block;
+    width: 30%;
+}
+
+.gradeDosLinks button{
+    color: #C9F31D;
+    padding: 16px 20px 16px 20px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.gradeDosLinks button:hover{
+    background-color: rgba(0, 0, 0, 0.859);
+}
